@@ -8,6 +8,9 @@ Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que v
 - Tabelas
 - Links de Navegação entre Páginas
 
+
+
+Projeto traz como ideia principal aplicar as principais Tags estudadas durante o modulo Trilha HTML da Formação HTML.
 Tela Home do Projeto Realizado
 ![designHome](https://github.com/jodairnunes/Formacao-Developer-HTML/assets/127688761/1955980e-227d-443e-95af-be849857fc23)
 
