@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    background-color: aqua;
+    padding: 0 20px;
+}
+.menu h2 {
+    margin-left: 10px;
+}
+
+.menu ul {
+    padding: 0;
+}
+.menu ul li{
+    padding: 15px 0px;
+    list-style: none;
+}
+
+
+
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: .1s;
+}
+
+.menu a:hover {
+    background-color: rgb(96, 67, 238);
+}
+
+.header {
+    overflow: hidden;
+    background-color: rgb(37, 36, 38);
+    height: 150px;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    background-color: white;
+    min-height: calc(100vh - 300px);
+    padding: 20px;
+}
+span {
+    color: rgb(142, 36, 241);
+}
+
+.servicos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+table {
+    border-spacing: 0;
+    border: 1px solid #ccc;
+}
+thead{
+    background-color: black;
+    color: #f1f1f1;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+th, td {
+    text-align: center;
+    width: 200px;
+}
+.footer {
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(37, 36, 38);
+    min-height: 110px;
+}
+
+.footer h3, .footer p {
+    margin: 5px;
+}
+
