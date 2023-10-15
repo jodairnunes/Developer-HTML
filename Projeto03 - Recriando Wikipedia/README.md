@@ -5,6 +5,10 @@
 ## Objetivo
 Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
 
+### Design Projeto Realizado
+![design-projeto](https://github.com/jodairnunes/Formacao-Developer-HTML/assets/127688761/60a023b7-969b-4844-acea-582e18f39e4b)
+
+
 ## Desafio
 Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
 
