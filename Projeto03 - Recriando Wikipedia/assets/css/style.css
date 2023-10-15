@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px;}
+li { padding: 8px;}
+a { color:blue; text-decoration: none;}
+
+.container-logo {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.container-logo h2 {
+    color: #cdcdcd;
+    text-transform: uppercase;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,14rem) minmax(0,2.5fr) minmax(0,14rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+
+figure img {
+    max-width: 550px;
+}
+
+#voltar-inicio {
+    position: fixed;
+    bottom: 30px;
+    right: 60px;
+    border: 2px solid #aaa;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #aaa;
+    font-weight: 500;
+}
